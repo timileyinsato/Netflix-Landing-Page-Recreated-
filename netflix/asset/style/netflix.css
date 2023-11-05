@@ -1,0 +1,219 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+body .header_body {
+  height: 100vh;
+  padding: 15px 50px;
+  background-image: url(../image/NG-en-20230911-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -5;
+}
+body .header_body::before {
+  content: "";
+  color: white;
+  font-size: 30px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.059), rgba(0, 0, 0, 0.789));
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+body .header_body::after {
+  content: "";
+  font-size: 30px;
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.059), rgba(0, 0, 0, 0.789));
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+body .header {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+body .headerlogo img {
+  height: 40px;
+}
+body .headerbutton input {
+  color: rgb(238, 234, 234);
+  background-color: red;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+body .Body {
+  color: white;
+  text-align: center;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+body .Body .Bodycontent {
+  margin-top: 180px;
+}
+body .Body .Bodycontent h1 {
+  font-size: 3rem;
+}
+body .Body .Bodycontent .BodyP1 {
+  font-size: 2rem;
+  margin: 25px 0px;
+}
+body .Body .Bodycontent p {
+  font-size: 1.5rem;
+  margin: 25px 0px;
+}
+body .Body .Bodycontent .inputdiv {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .Body .Bodycontent .inputdiv #emailaddy {
+  background-color: rgba(0, 0, 0, 0.645);
+  font-weight: bold;
+  width: 300px;
+  padding: 20px 25px;
+  margin-right: 10px;
+  border: solid 1px rgba(250, 248, 248, 0.651);
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+}
+body .Body .Bodycontent .inputdiv .submit {
+  background-color: red;
+  padding: 18px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  font-size: 23px;
+}
+body .enjoyTV {
+  color: white;
+  background-color: black;
+  height: 500px;
+  margin: solid grey 15px 0px;
+  display: flex;
+  text-align: center;
+  border-top: solid rgba(128, 128, 128, 0.363) 10px;
+}
+body .enjoyTV .enjoyTVtext {
+  justify-self: center;
+  margin-top: 90px;
+  padding: 100px;
+  display: block;
+  justify-content: space-between;
+}
+body .enjoyTV .enjoyTVtext h1 {
+  text-align: justify;
+  font-size: 40px;
+  font-weight: bold;
+}
+body .enjoyTV .enjoyTVtext p {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 20px;
+}
+body .downloadshows {
+  height: 500px;
+  color: white;
+  background-color: black;
+  border-top: solid rgba(128, 128, 128, 0.205) 10px;
+  display: flex;
+}
+body .downloadshows .downloadshowstext {
+  justify-self: center;
+  margin-top: 90px;
+  padding: 100px;
+  display: block;
+  justify-content: space-between;
+}
+body .downloadshows .downloadshowstext h1 {
+  text-align: justify;
+  font-size: 40px;
+  font-weight: bold;
+}
+body .downloadshows .downloadshowstext p {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 20px;
+}
+body .watcheverywhere {
+  color: white;
+  background-color: black;
+  border-top: solid rgba(128, 128, 128, 0.205) 10px;
+  height: 500px;
+}
+body .watcheverywhere .watcheverywheretext {
+  justify-self: center;
+  margin-top: 50px;
+  margin-left: 80px;
+  padding: 100px;
+  display: block;
+  justify-content: space-between;
+}
+body .watcheverywhere .watcheverywheretext h1 {
+  text-align: justify;
+  font-size: 60px;
+  font-weight: bold;
+}
+body .watcheverywhere .watcheverywheretext p {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 20px;
+}
+body .createprofile {
+  color: white;
+  background-color: black;
+  border-top: solid rgba(128, 128, 128, 0.205) 10px;
+  height: 500px;
+  display: flex;
+}
+body .createprofile .createprofiletext {
+  justify-self: center;
+  margin-top: 60px;
+  margin-left: 80px;
+  padding: 100px;
+  display: block;
+  justify-content: space-between;
+}
+body .createprofile .createprofiletext h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+body .createprofile .createprofiletext p {
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 20px;
+}
+body .frequentquestions {
+  color: white;
+  background-color: black;
+  border-top: solid rgba(128, 128, 128, 0.205) 10px;
+  height: 500px;
+  display: block;
+  text-align: center;
+  padding: 60px;
+}
+body .frequentquestions .frequentquestionshead {
+  font-size: larger;
+  font-weight: bold;
+}/*# sourceMappingURL=netflix.css.map */
